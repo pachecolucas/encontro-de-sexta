@@ -1,14 +1,14 @@
 <style>
-  h4,
-  h6 {
-    color: red;
-    font-family: arial;
-  }
 </style>
-<h1>esta é uma linha</h1>
-<h2>outra linha, porra!</h2>
-<h3>outra linha, porra!</h3>
-<h4>outra linha, porra!</h4>
-<h5>outra linha, porra!</h5>
-<h6>outra linha, porra!</h6>
-<p>HT M L</p>
+<h1>Contador</h1>
+<p>0</p>
+<button onclick="adicionar()">próximo</button>
+<script>
+
+  let numero = 0
+
+  function adicionar() {
+    numero = numero + 1
+    document.querySelector("p").innerText = numero
+  }
+</script>
